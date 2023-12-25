@@ -1,0 +1,33 @@
+body{
+     height: 100vh;
+     display: grid;
+     justify-content: center;
+     background: #222;
+      
+}
+
+.container{
+    height: 500px;
+    width: 800px;
+    display: flex;
+    overflow-y:auto;
+    scroll-snap-type:  x mandatory;
+    margin: 150px 0px;
+    font-size: 100px;
+    color: blueviolet;
+    margin-left: 200px;
+  
+}
+
+.container .slide{
+    scroll-snap-align: start;
+}
+
+.container img{
+    
+    height: 100%;
+    width: 800px;
+    object-fit:cover;
+    
+    
+}
