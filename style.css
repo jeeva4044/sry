@@ -13,8 +13,7 @@ body{
     overflow-y:auto;
     scroll-snap-type:  x mandatory;
     margin: 150px 0px;
-    font-size: 100px;
-    color: blueviolet;
+   
     margin-left: 200px;
   
 }
